@@ -1,0 +1,11 @@
+pkg update && pkg upgrade
+pkg install python
+pkg install python2
+pkg install git
+pip install bs4
+pip install futures
+pip install requests
+git clone https://github.com/Anastanasw/HekEfbi
+cd HekEfbi
+python2 MarkAsu.py
+
